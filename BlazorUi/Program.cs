@@ -6,10 +6,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorComponents();
-builder.Services
-    .AddBlazorise()
-    
- .AddFontAwesomeIcons();
+
 
 var app = builder.Build();
 
